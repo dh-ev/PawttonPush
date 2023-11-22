@@ -1,0 +1,76 @@
+@font-face {
+    font-family: cute;
+    src: url(./Cute\ Letters.otf);
+}
+
+body{
+    background-color:#3D426B;
+}
+
+.lost{
+    background-color: rgb(251, 111, 111);
+}
+
+h1{
+    color: white;
+    font-family: cute;
+    font-size: 4rem;
+    text-align: center;
+    word-spacing: 1rem;
+    letter-spacing: 0.25rem;
+    border: 5px dashed;
+}
+
+h2{
+    color: white;
+    font-family: cute;
+    font-size: 3rem;
+    text-align: center;
+    word-spacing: 1rem;
+    letter-spacing: 0.25rem;   
+}
+
+.firstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.secondRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 10%;
+    border:5px solid black;
+}
+
+.orange{
+    background-color: #f6be97;
+}
+
+.sandal{
+    background-color: #F1F7B5;
+}
+
+.green{
+    background-color: #A8D1D1;
+}
+
+.blue{
+    background-color: #9EA1D4;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-family: cute;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
